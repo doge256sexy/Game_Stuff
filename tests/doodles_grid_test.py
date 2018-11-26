@@ -7,7 +7,7 @@ import sys
 import pygame
 
 import Game_Stuff.utilities.grid as grid_class
-import Game_Stuff.day_4.colors as colors
+import Game_Stuff.utilities.colors as colors
 import Game_Stuff.utilities.doodles as doodles
 
 pygame.init()
