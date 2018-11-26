@@ -17,7 +17,7 @@ pygame.init()
 width = 720
 height = 480
 # set up the window
-DISPLAY_SURFACE = pygame.display.set_mode((width, height), pygame.FULLSCREEN)
+DISPLAY_SURFACE = pygame.display.set_mode((width, height), 0)
 pygame.display.set_caption('K-Means Clustering')  # set up the colors
 
 balls = []
